@@ -18,7 +18,7 @@ SELECT * FROM Customers WHERE Country='Mexico';
 SELECT * FROM Customers WHERE City IN ('Paris','London');
 SELECT * FROM Customers WHERE City LIKE 's%';
 SELECT * FROM Products WHERE Price BETWEEN 50 AND 60;
-SELECT * FROM Products WHERE Price <> 18;                   //Not equal. Note: In some versions of SQL this operator may be written as !=
+SELECT * FROM Products WHERE Price <> 18; //SQL this operator may be written as !=
 SELECT * FROM Products WHERE Price <= 30;
 SELECT * FROM Products WHERE Price >= 30;
 SELECT * FROM Products WHERE Price < 30;
